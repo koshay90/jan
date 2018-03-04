@@ -492,26 +492,32 @@
                                         <div class="projects">
                                             <div class="row ">
                                                 <div class="col-md-2 col-md-push-8">
-                                                    <div class="projects_menu">
-                                                        <ul>
-                                                            <li><a href="#!">projects</a></li>
-                                                            <li><a href="#!">Quotations</a></li>
-                                                            <li><a href="#!">Orders</a></li>
-                                                            <li><a href="#!">Deliveries</a></li>
-                                                            <li><a href="#!">Invoices</a></li>
-                                                            <li><a href="#!">Contracts</a></li>
-                                                            <li><a href="#!">Service Tickets</a></li>
-                                                            <li><a href="#!">Documents</a></li>
+
+                                                    <div>
+                                                        <!-- Навигация -->
+                                                        <ul class="nav nav-tabs projects_menu" role="tablist">
+                                                            <li class="active"><a href="#projects" aria-controls="home" role="tab" data-toggle="tab">projects</a></li>
+                                                            <li><a href="#Quotations" aria-controls="profile" role="tab" data-toggle="tab">Quotations</a></li>
+                                                            <li><a href="#Orders" aria-controls="messages" role="tab" data-toggle="tab">Orders</a></li>
+                                                            <li><a href="#Deliveries" aria-controls="settings" role="tab" data-toggle="tab">Deliveries</a></li>
+                                                            <li><a href="#Contracts" aria-controls="settings" role="tab" data-toggle="tab">Contracts</a></li>
+                                                            <li><a href="#Service_Tickets" aria-controls="settings" role="tab" data-toggle="tab">Service Tickets</a></li>
+                                                            <li><a href="#Documents" aria-controls="settings" role="tab" data-toggle="tab">Настройки</a></li>
+
                                                         </ul>
+                                                        <!-- Содержимое вкладок -->
+
                                                     </div>
                                                 </div>
                                                 <div class="col-md-10 col-md-pull-4">
-                                                    <div class="row">
-                                                        <div class="col-md-4">
-
-                                                        </div>
-                                                        <div class="col-md-8">
-                                                        </div>
+                                                    <div class="tab-content">
+                                                        <div role="tabpanel" class="tab-pane active" id="projects">No Project available</div>
+                                                        <div role="tabpanel" class="tab-pane" id="Quotations">3</div>
+                                                        <div role="tabpanel" class="tab-pane" id="Orders">2.</div>
+                                                        <div role="tabpanel" class="tab-pane" id="Deliveries">..4.</div>
+                                                        <div role="tabpanel" class="tab-pane" id="Contracts">..5.</div>
+                                                        <div role="tabpanel" class="tab-pane" id="Service_Tickets">.7..</div>
+                                                        <div role="tabpanel" class="tab-pane" id="Documents">..6.</div>
                                                     </div>
                                                 </div>
                                             </div>

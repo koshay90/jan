@@ -194,10 +194,14 @@ ul .language li a {
 
 .carousel-control-next {
     top: 50%;
-    right: -15%;
+    right: -8%;
 
 }
+.carousel-control-prev {
+    top: 50%;
+    left: -8%;
 
+}
 .carousel-control-next-icon {
     background-image: url(../images/left.png);
 }
@@ -206,11 +210,7 @@ ul .language li a {
     background-image: url(../images/rht.png);
 }
 
-.carousel-control-prev {
-    top: 50%;
-    left: -15%;
 
-}
 
 .carousel-control-prev, .carousel-control-next {
     width: 40px;
