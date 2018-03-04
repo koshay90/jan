@@ -368,14 +368,16 @@ ul .language li a {
 .Circle_box_right .show_box {
     padding-top: 15px;
 }
-.Circle_box_big:before{
+
+.Circle_box_big:before {
     content: url(../images/line.png);
     z-index: 3;
     position: relative;
-    top:168px;
+    top: 168px;
     left: 61px;
 }
-.Circle_box_big:after{
+
+.Circle_box_big:after {
     content: url(../images/line_left.png);
     z-index: 3;
     position: relative;
@@ -383,3 +385,62 @@ ul .language li a {
     left: -38px;
 }
 
+.logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.logo img {
+    position: relative;
+    left: -65%;
+}
+
+.Customer_Center, .projects{
+    height: 530px;
+    margin-top: 88px;
+}
+
+.about {
+    margin-top: 20px;
+    font-family: opensanslight;
+}
+
+.about h2 {
+    color: #639abe;
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
+.location {
+    margin-bottom: 23px;
+}
+
+.information {
+    margin-bottom: 23px;
+}
+
+.price {
+    margin-bottom: 45px;
+}
+
+.Change_information ul li {
+    padding-right: 20px;
+    float: left;
+}
+
+.Change_information ul li a {
+    display: block;
+    border: 1px solid #a0ccdb;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px 12px;
+    width: 135px;
+    font-size: 11px;
+    font-family: opensanslight;
+}
+.projects_menu{
+    border-right: 1px solid #AFAFAF ;
+}
