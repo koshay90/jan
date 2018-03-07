@@ -197,11 +197,12 @@ ul .language li a {
     right: -8%;
 
 }
+
 .carousel-control-prev {
     top: 50%;
     left: -8%;
-
 }
+
 .carousel-control-next-icon {
     background-image: url(../images/left.png);
 }
@@ -209,8 +210,6 @@ ul .language li a {
 .carousel-control-prev-icon {
     background-image: url(../images/rht.png);
 }
-
-
 
 .carousel-control-prev, .carousel-control-next {
     width: 40px;
@@ -247,7 +246,6 @@ ul .language li a {
 
 .box_overview_central a img {
     padding-bottom: 5px;
-
 }
 
 .two {
@@ -398,7 +396,7 @@ ul .language li a {
     left: -65%;
 }
 
-.Customer_Center, .projects{
+.Customer_Center, .projects {
     height: 530px;
     margin-top: 88px;
 }
@@ -441,6 +439,51 @@ ul .language li a {
     font-size: 11px;
     font-family: opensanslight;
 }
-.projects_menu{
-    border-right: 1px solid #AFAFAF ;
+
+.projects_menu {
+    border-right: 1px solid #AFAFAF;
+}
+
+.qutation {
+    border-bottom: 1px solid #AFAFAF;
+    padding: 10px 0;
+}
+
+.qutation p {
+    font-size: 37px;
+    text-transform: uppercase;
+    color: #639ABE;
+    float: left;
+
+}
+
+.qutation ul li {
+    float: right;
+    padding-right: 15px;
+    margin: 0px;
+}
+
+.qutation ul li a {
+    margin: 0px;
+    display: block;
+    text-align: center;
+    border: 1px solid #00aeef;
+    border-radius: 20px;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.Service_Tickets_menu li {
+    width: 130px;
+    padding-right: 80px;
+}
+
+.Service_Tickets_menu li:last-child a {
+    background-color: #5b6973;
+    color: #fff;
+}
+
+.messages_1, .messages_2, .messages_3, .messages_4 {
+    height: 530px;
+
 }
