@@ -29,7 +29,6 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     min-height: 100%;
-    font-family: 'SegoeUILight';
     font-size: 14px;
 }
 
@@ -486,4 +485,55 @@ ul .language li a {
 .messages_1, .messages_2, .messages_3, .messages_4 {
     height: 530px;
 
+}
+
+.messages_1, .messages_2, .messages_3, .messages_4 h2 {
+    text-transform: uppercase;
+    font-size: 66px;
+    font-family: 'opensans';
+}
+
+.days ul li {
+    float: left;
+    padding-right: 5px;
+}
+
+.days ul li a {
+    font-size: 13px;
+    font-family: 'opensanslight';
+    padding-right: 0px;
+}
+
+.days2 ul li {
+    float: left;
+    padding-left: 5px;
+}
+
+.days2 ul {
+    float: left;
+    padding-right: 10px;
+}
+
+.days2 ul li a {
+    font-size: 13px;
+    font-family: 'opensanslight';
+    padding: 0;
+    margin: 0;
+}
+
+.days2 p {
+    font-size: 13px;
+    font-family: 'opensanslight';
+}
+
+.highcharts-credits {
+    display: none;
+}
+
+.highcharts-color-0 {
+    fill: #639ABE;
+    width: 12px;
+}
+.highcharts-color-1 {
+    fill: #B4C2CB;
 }
