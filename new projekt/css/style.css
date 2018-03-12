@@ -153,7 +153,7 @@ ul .language li a {
 }
 
 .carousel-item H2 {
-    font-size: 100px;
+    font-size: 80px;
     margin-bottom: 15px;
 }
 
@@ -483,7 +483,8 @@ ul .language li a {
 }
 
 .messages_1, .messages_2, .messages_3, .messages_4 {
-    height: 530px;
+    height: 580px;
+    padding-top: 35px;
 
 }
 
@@ -495,7 +496,10 @@ ul .language li a {
 
 .days ul li {
     float: left;
-    padding-right: 5px;
+}
+
+.days2 ul li:first-child  {
+    padding-right: 15px;
 }
 
 .days ul li a {
@@ -659,15 +663,27 @@ ul .language li a {
     display: inline-block;
     padding-bottom: 25px;
 }
-.energi p{
+
+.energi p {
     margin-bottom: 82px;
 }
-.energi_menu_in a{
+
+.energi_menu_in a {
     width: 167px;
     text-decoration: none;
     padding: 15px;
     display: inline-block;
     border: 1px solid #00aeef;
     border-radius: 25px;
-font-size: 18px;
+    font-size: 18px;
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    border: 1px solid #000;
+
+}
+.carousel-indicators .active {
+    background-color: #000;
 }
