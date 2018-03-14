@@ -329,3 +329,11 @@ Highcharts.chart('column_basic4', {
 
 });
 
+$(".nav li:not(:first-child)").click(function() {
+    $(this).parent().addClass("checked"); //добавляем класс текущей (нажатой)
+    $(this).parent().removeClass("checked2");
+});
+
+$(".nav li:first-child").click(function() {
+    $(this).parent().addClass("checked2");
+});

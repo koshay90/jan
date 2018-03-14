@@ -88,14 +88,9 @@ table {
 }
 
 .container-header ul li a {
-    transition: all 0.3s ease-in-out;
-    display: block;
-    color: #231f20;
     text-transform: uppercase;
     text-decoration: none;
-    padding-right: 40px;
     line-height: 1;
-    margin: 15px 0;
 }
 
 .container-header ul li a:hover {
@@ -302,6 +297,7 @@ ul .language li a {
     border: 1px solid #b5c4c1;
     text-align: center;
     overflow: hidden;
+    background-color: #ffffff;
 }
 
 .Circle_box a {
@@ -334,11 +330,15 @@ ul .language li a {
     display: none;
     padding-top: 35px;
     font-family: opensanslight;
+    background-color: #ffffff;
+    z-index:9999;
+    color: #fff;
 }
 
 .Circle_box_head {
     margin-bottom: 45px;
 }
+
 
 .Circle_box:hover .hide {
     display: none;
@@ -352,9 +352,10 @@ ul .language li a {
     width: 125px;
     margin: 0 auto;
     background-color: #01A0C6;
-    color: #fff;
+
     font-size: 24px;
 }
+
 
 .last_p {
     padding-top: 10px;
@@ -374,12 +375,19 @@ ul .language li a {
     left: 61px;
 }
 
-.Circle_box_big:after {
-    content: url(../images/line_left.png);
-    z-index: 3;
+.Circle_box_big2:after {
+    content: url(../images/cirkl_w.png);
+    z-index: -999;
     position: relative;
-    top: -278px;
-    left: -38px;
+    top: 46%;
+    right: 15%;
+}
+.Circle_box_big2:before {
+    content: url(../images/line_w.png);
+    z-index: -10;
+    position: absolute;
+    top: 90%;
+    right: -72%;
 }
 
 .logo {
@@ -483,29 +491,30 @@ ul .language li a {
 }
 
 .messages_1, .messages_2, .messages_3, .messages_4 {
-    height: 580px;
+    height: 610px;
     padding-top: 35px;
 
 }
 
 .messages_1, .messages_2, .messages_3, .messages_4 h2 {
     text-transform: uppercase;
-    font-size: 66px;
     font-family: 'opensans';
 }
 
 .days ul li {
     float: left;
+    margin-bottom: 15px;
 }
 
-.days2 ul li:first-child  {
+.days2 ul li:first-child {
     padding-right: 15px;
 }
 
 .days ul li a {
     font-size: 13px;
     font-family: 'opensanslight';
-    padding-right: 0px;
+    padding-right: 19px;
+    color: #0f0f0f;
 }
 
 .days2 ul li {
@@ -523,6 +532,7 @@ ul .language li a {
     font-family: 'opensanslight';
     padding: 0;
     margin: 0;
+    color: #0f0f0f;
 }
 
 .days2 p {
@@ -677,13 +687,50 @@ ul .language li a {
     border-radius: 25px;
     font-size: 18px;
 }
-.carousel-indicators li{
+
+.carousel-indicators li {
     width: 15px;
     height: 15px;
     border-radius: 15px;
     border: 1px solid #000;
 
 }
+
 .carousel-indicators .active {
-    background-color: #000;
+    background-color: #312A20;
+}
+
+.live_tab {
+    background-image: url("../images/backgraynd_live.png");
+    background-size: 100%;
+    position: absolute;
+    top: -100px;
+    left: -106px;
+    height: 817px;
+    width: 1349px;
+    z-index: -999;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 12px;
+    height: 22px;
+}
+
+.nav-tabs li a {
+    transition: all 0.3s ease-in-out;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 40px;
+    margin: 15px 0;
+}
+
+.checked  li a{
+    color: #201600;
+
+}
+.checked2  li a{
+    color: #fff;
+
 }
