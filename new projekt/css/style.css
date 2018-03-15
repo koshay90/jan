@@ -143,8 +143,8 @@ ul .language li a {
 .today {
     font-family: opensans;
     text-transform: uppercase;
-    margin-bottom: 70px;
-    margin-top: 80px;
+    margin-bottom: 75px;
+
 }
 
 .carousel-item H2 {
@@ -157,9 +157,10 @@ ul .language li a {
 }
 
 .box_overview {
-    width: 50%;
+    width: 175px;
+    height: 175px;
     float: left;
-    padding: 15px 15px 15px 0px;
+    padding: 2px 15px 15px 0px;
 }
 
 .box_overview a {
@@ -215,14 +216,16 @@ ul .language li a {
 }
 
 .box_overview_central {
-    width: 100%;
+
     float: left;
-    padding: 15px 15px 15px 0;
+    padding: 0px 15px 15px 0;
     text-align: center;
+
 }
 
 .box_overview_central a {
-    padding: 17px 0px;
+    width: 176px;
+    height: 112px;
     display: block;
     text-decoration: none;
     font-size: 30px;
@@ -234,12 +237,12 @@ ul .language li a {
 }
 
 .box_overview_central a:hover {
-    background-color: #4bcaff;
+    background-color: #3eb5f1;
 
 }
 
 .box_overview_central a img {
-    padding-bottom: 5px;
+    padding: 22px;
 }
 
 .two {
@@ -273,17 +276,6 @@ ul .language li a {
 
 .box_overview a:hover .one p {
     font-size: 16px;
-}
-
-.box_overview_central_right {
-    width: 50%;
-    float: left;
-    padding: 15px 15px 25px 0;
-    text-align: center;
-}
-
-.box_overview_central_right a {
-    padding: 59px 0;
 }
 
 .big_circle_box {
@@ -331,14 +323,13 @@ ul .language li a {
     padding-top: 35px;
     font-family: opensanslight;
     background-color: #ffffff;
-    z-index:9999;
+    z-index: 9999;
     color: #fff;
 }
 
 .Circle_box_head {
     margin-bottom: 45px;
 }
-
 
 .Circle_box:hover .hide {
     display: none;
@@ -355,7 +346,6 @@ ul .language li a {
 
     font-size: 24px;
 }
-
 
 .last_p {
     padding-top: 10px;
@@ -382,6 +372,7 @@ ul .language li a {
     top: 46%;
     right: 15%;
 }
+
 .Circle_box_big2:before {
     content: url(../images/line_w.png);
     z-index: -10;
@@ -592,6 +583,7 @@ ul .language li a {
     padding: 5px;
     border-radius: 15px;
     outline: 0;
+    width: 270px;
 }
 
 .user_info input[type="text"] {
@@ -604,11 +596,12 @@ ul .language li a {
     background-color: #5B6973;
     color: #fff;
     transition: all 0.3s ease-in-out;
-    width: 45%;
+    width: 185px;
     display: inline-block;
-    margin-left: 20%;
+    margin-left: 18px;
     font-size: 14px;
-    text-transform: capitalize;
+    text-transform: unset;
+    font-family: opensanslight;
 }
 
 .user_info button[type="submit"]:hover {
@@ -626,7 +619,7 @@ ul .language li a {
 }
 
 .footer_name p {
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 .footer_name a {
@@ -634,11 +627,12 @@ ul .language li a {
     background-color: #5B6973;
     display: inline-block;
     text-align: center;
-    padding: 5px 35px;
+    padding: 10px 35px;
     border-radius: 25px;
     color: #fff;
     transition: all 0.3s ease-in-out;
-
+    font-family: opensanslight;
+    width: 185px;
 }
 
 .footer_name a:hover {
@@ -648,16 +642,15 @@ ul .language li a {
 
 .footer_menu ul li {
     float: left;
-    padding: 10px 45px 10px 10px;
+    margin-right: 45px;
 }
 
 .footer_menu ul li a {
-    width: 35px;
-    height: 35px;
+margin-bottom: 25px;
 }
 
 .footer_menu {
-    padding-top: 35px;
+    padding-top: 56px;
 }
 
 .energi_menu {
@@ -726,11 +719,66 @@ ul .language li a {
     margin: 15px 0;
 }
 
-.checked  li a{
+.checked li a {
     color: #201600;
 
 }
-.checked2  li a{
+
+.checked2 li a {
     color: #fff;
 
+}
+
+.today2 h2 {
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.box_overview p.two, .box_overview_central p.two {
+    font-size: 16px;
+}
+
+.Overview_all {
+    margin-top: 70px;
+}
+
+.box_overview_rt {
+    margin-bottom: 32px;
+}
+
+.min_col {
+    padding-left: 0px;
+}
+
+.min_col_max {
+    padding-left: 0px;
+}
+
+.box_overview_big2 {
+    margin-bottom: 25px;
+}
+
+.footer_menu p {
+    font-size: 14px;
+    font-family: opensanslight;
+}
+
+.footer_menu li {
+    margin: 0 auto;
+}
+
+.footer_menu li a {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer_menu a {
+    display: block;
+}
+
+.footer_menu p {
+    text-align: center;
+}
+.projects_menu li a {
+    color: #000;
 }
