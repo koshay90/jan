@@ -646,7 +646,7 @@ ul .language li a {
 }
 
 .footer_menu ul li a {
-margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .footer_menu {
@@ -779,6 +779,227 @@ margin-bottom: 25px;
 .footer_menu p {
     text-align: center;
 }
+
 .projects_menu li a {
     color: #000;
+}
+
+.enerj_slider {
+    margin-top: 120px;
+    height: 530px;
+
+}
+
+.ui-slider-handle {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 15px 15px 15px 15px !important;
+    -webkit-border-radius: 15px 15px 15px 15px !important;
+    background: -webkit-linear-gradient(top, #639ABE, #639ABE) !important;
+    background: -o-linear-gradient(top, #639ABE, #639ABE) !important;
+    background: -ms-linear-gradient(top, #639ABE, #639ABE) !important;
+    background: linear-gradient(top, #639ABE, #639ABE) !important;
+    border: none !important;
+    top: 50% !important;
+    margin-top: -15px !important;
+    margin-left: -15px !important;
+    cursor: pointer !important;
+    outline: none !important;
+}
+
+.SOCKET {
+    text-align: center;
+    margin-bottom: 45px;
+
+}
+
+.SOCKET img {
+    margin-bottom: 25px;
+}
+
+.batton_SOCKET {
+
+    margin-bottom: 55px;
+}
+
+.batton_SOCKET a {
+    float: left;
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    border: 2px solid #000000;
+    border-radius: 35px;
+    text-align: center;
+    line-height: 100px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    top: 25%;
+    left: 33%;
+
+}
+
+.batton_SOCKET a:last-child {
+    line-height: 88px;
+    margin-left: 55px;
+}
+
+.batton_SOCKET a:hover {
+    background-color: #3EB5F1;
+}
+
+.enerj_slider_pointer {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.enerj_slider_pointer:before {
+    content: "off";
+    font-family: opensanslight;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+
+    left: 16px;
+}
+
+.contentSlider_position {
+    position: relative;
+    top: 40px;
+    left: 0px;
+}
+
+.enerj_slider_pointer span:before {
+    content: "|";
+    position: relative;
+    top: -18px;
+    left: 4px;
+    color: #171C1D;
+
+}
+
+.slider_bly {
+    margin-bottom: 35px;
+}
+
+.contentSlider_position0 {
+    padding-right: 81px;
+}
+
+.contentSlider_position6 {
+    padding-right: 84px;
+}
+
+.contentSlider_position12 {
+    padding-right: 81px;
+}
+
+.contentSlider_position18 {
+    padding-right: 73px;
+}
+
+span.contentSlider_position18:before {
+    left: 8px;
+}
+
+span.contentSlider_position12:before {
+    left: 10px;
+}
+
+span.contentSlider_position24:before {
+    left: 11px;
+}
+
+.contentSlider_position0, .contentSlider_position6, .contentSlider_position12, .contentSlider_position18, .contentSlider_position24 {
+    color: #B4C2CB;
+}
+
+.termo_img {
+    text-align: center;
+}
+
+.termo_60, .termo_20, .termo_35 {
+    color: #00aeef;
+    height: 48px;
+    width: 100px;
+    border-radius: 5px;
+
+    text-align: center;
+    line-height: 48px;
+
+}
+
+.arrow_box {
+    position: relative;
+    background: #fff;
+    border: 2px solid #3EB5F1;
+}
+
+.arrow_box:after, .arrow_box:before {
+    left: 98%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow_box:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #fff;
+    border-width: 22px;
+    margin-top: -22px;
+}
+
+.arrow_box:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-left-color: #3EB5F1;
+    border-width: 25px;
+    margin-top: -25px;
+}
+
+.termo_60 {
+    position: absolute;
+    top: 10%;
+}
+
+.termo_20 {
+    position: absolute;
+    top: 50%;
+}
+
+.arrow_box2:after, .arrow_box2:before {
+    right: 98%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow_box2:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-right-color: #fff;
+    border-width: 22px;
+    margin-top: -22px;
+}
+
+.arrow_box2:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-right-color: #3EB5F1;
+    border-width: 25px;
+    margin-top: -25px;
+}
+.arrow_box2 {
+    position: relative;
+    background: #fff;
+    border: 2px solid #3EB5F1;
+}
+.termo_35 {
+    position: absolute;
+    top: 30%;
+    right: 10%;
 }

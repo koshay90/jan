@@ -337,3 +337,68 @@ $(".nav li:not(:first-child)").click(function() {
 $(".nav li:first-child").click(function() {
     $(this).parent().addClass("checked2");
 });
+
+$(document).ready(function(){
+    $( "#slider" ).slider({
+        value : 0,//Значение, которое будет выставлено слайдеру при загрузке
+        min : -0,//Минимально возможное значение на ползунке
+        max : 24,//Максимально возможное значение на ползунке
+        step : 6,//Шаг, с которым будет двигаться ползунок
+        create: function( event, ui ) {
+            val = $( "#slider" ).slider("value");//При создании слайдера, получаем его значение в перемен. val
+            $( "#contentSlider" ).html( val );//Заполняем этим значением элемент с id contentSlider
+        },
+        slide: function( event, ui ) {
+            $( "#contentSlider" ).html( ui.value );//При изменении значения ползунка заполняем элемент с id contentSlider
+
+        }
+    });
+});
+$(document).ready(function(){
+    $( "#slider2" ).slider({
+        value : 6,//Значение, которое будет выставлено слайдеру при загрузке
+        min : -0,//Минимально возможное значение на ползунке
+        max : 24,//Максимально возможное значение на ползунке
+        step : 6,//Шаг, с которым будет двигаться ползунок
+        create: function( event, ui ) {
+            val = $( "#slider2" ).slider("value");//При создании слайдера, получаем его значение в перемен. val
+            $( "#contentSlider" ).html( val );//Заполняем этим значением элемент с id contentSlider
+        },
+        slide: function( event, ui ) {
+            $( "#contentSlider" ).html( ui.value );//При изменении значения ползунка заполняем элемент с id contentSlider
+
+        }
+    });
+});
+$(document).ready(function(){
+    $( "#slider3" ).slider({
+        value : 6,//Значение, которое будет выставлено слайдеру при загрузке
+        min : -0,//Минимально возможное значение на ползунке
+        max : 24,//Максимально возможное значение на ползунке
+        step : 6,//Шаг, с которым будет двигаться ползунок
+        create: function( event, ui ) {
+            val = $( "#slider3" ).slider("value");//При создании слайдера, получаем его значение в перемен. val
+            $( "#contentSlider" ).html( val );//Заполняем этим значением элемент с id contentSlider
+        },
+        slide: function( event, ui ) {
+            $( "#contentSlider" ).html( ui.value );//При изменении значения ползунка заполняем элемент с id contentSlider
+
+        }
+    });
+});
+$(document).ready(function(){
+    $( "#slider4" ).slider({
+        value : 6,//Значение, которое будет выставлено слайдеру при загрузке
+        min : -0,//Минимально возможное значение на ползунке
+        max : 24,//Максимально возможное значение на ползунке
+        step : 6,//Шаг, с которым будет двигаться ползунок
+        create: function( event, ui ) {
+            val = $( "#slider4" ).slider("value");//При создании слайдера, получаем его значение в перемен. val
+            $( "#contentSlider" ).html( val );//Заполняем этим значением элемент с id contentSlider
+        },
+        slide: function( event, ui ) {
+            $( "#contentSlider" ).html( ui.value );//При изменении значения ползунка заполняем элемент с id contentSlider
+
+        }
+    });
+});
