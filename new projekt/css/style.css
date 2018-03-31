@@ -164,11 +164,11 @@ ul .language li a {
 }
 
 .box_overview a {
-    padding: 30px 0px;
+    padding: 30px 0;
     display: block;
     text-decoration: none;
     font-size: 30px;
-    border: 2px solid #3eb5f1;
+    border: 2px solid #4bcaff;
     text-align: center;
     line-height: 18px;
     transition: all 0.3s ease-in-out;
@@ -248,6 +248,7 @@ ul .language li a {
 .two {
     display: none;
     font-size: 16px;
+    color: #ffffff;
 }
 
 .box_overview_central a:hover .two {
@@ -283,13 +284,12 @@ ul .language li a {
 }
 
 .Circle_box {
-
     border-radius: 125px;
     width: 100%;
-    border: 1px solid #b5c4c1;
     text-align: center;
     overflow: hidden;
     background-color: #ffffff;
+
 }
 
 .Circle_box a {
@@ -311,7 +311,13 @@ ul .language li a {
     left: 125%;
     bottom: 16px;
 }
-
+.Circle_box_big3:after {
+    content: url(../images/line_left.png);
+    z-index: -10;
+    position: absolute;
+    top: 104%;
+    right: 65%;
+}
 .Circle_box_right {
     position: relative;
     bottom: 145px;
@@ -334,6 +340,7 @@ ul .language li a {
 .Circle_box:hover .hide {
     display: none;
     text-align: center;
+    border-color: #00aeef;
 }
 
 .Circle_box:hover .show_box {
@@ -343,7 +350,7 @@ ul .language li a {
     width: 125px;
     margin: 0 auto;
     background-color: #01A0C6;
-
+    border-color: #00aeef;
     font-size: 24px;
 }
 
@@ -359,7 +366,7 @@ ul .language li a {
 
 .Circle_box_big:before {
     content: url(../images/line.png);
-    z-index: 3;
+    z-index: 999;
     position: relative;
     top: 168px;
     left: 61px;
@@ -377,8 +384,8 @@ ul .language li a {
     content: url(../images/line_w.png);
     z-index: -10;
     position: absolute;
-    top: 90%;
-    right: -72%;
+    top: 88%;
+    right: 74%;
 }
 
 .logo {
@@ -479,6 +486,7 @@ ul .language li a {
 .Service_Tickets_menu li:last-child a {
     background-color: #5b6973;
     color: #fff;
+    border-color:#5b6973 ;
 }
 
 .messages_1, .messages_2, .messages_3, .messages_4 {
@@ -585,7 +593,9 @@ ul .language li a {
     outline: 0;
     width: 270px;
 }
-
+input[type="search"]::-moz-placeholder {
+    color: #ffd595; /* Цвет подсказывающего текста */
+}
 .user_info input[type="text"] {
 
     border: 1px solid #00aeef;
@@ -745,6 +755,9 @@ ul .language li a {
 .box_overview_rt {
     margin-bottom: 32px;
 }
+.box_overview_rt a{
+    height: 100%;
+}
 
 .min_col {
     padding-left: 0px;
@@ -872,7 +885,7 @@ ul .language li a {
     content: "|";
     position: relative;
     top: -18px;
-    left: 4px;
+    left: 5px;
     color: #171C1D;
 
 }
@@ -906,7 +919,7 @@ span.contentSlider_position12:before {
 }
 
 span.contentSlider_position24:before {
-    left: 11px;
+    left: 9px;
 }
 
 .contentSlider_position0, .contentSlider_position6, .contentSlider_position12, .contentSlider_position18, .contentSlider_position24 {
@@ -1003,3 +1016,18 @@ span.contentSlider_position24:before {
     top: 30%;
     right: 10%;
 }
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #00aeef;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #00aeef;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #00aeef;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #00aeef;
+}
+.ui-slider-horizontal .ui-slider-range{
+background: #639ABE;
+  }

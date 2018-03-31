@@ -5,9 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
@@ -17,6 +19,7 @@
 <body>
 
 <header>
+
     <div class="container container-header">
         <div class="row">
             <div class="col-sm-12">
@@ -48,6 +51,9 @@
 
                     <!-- Содержимое вкладок -->
                     <div class="tab-content">
+                        <div id="b-placeholder">
+
+                        </div>
                         <div role="tabpanel" class="tab-pane  fade in active" id="live">
                             <div class="live_tab">
 
@@ -55,7 +61,9 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-4"></div>
-                                <div class="col-md-8 Circle_box_big2">
+                                <div class="Circle_box_big3"></div>
+                                <div class="col-md-8 Circle_box_big2 ">
+
                                     <div class="Circle_box_big ">
                                         <div class="Circle_box Circle_box_head ">
                                             <a class="hide" href="#!">
@@ -740,13 +748,15 @@
                                                         <a href="#!"><img src="images/on_swich.png" alt="on_swich"></a>
                                                     </div>
                                                     <div class="enerj_slider_pointer">
-                                                        <!--<span class="contentSlider_position" id="contentSlider"></span>-->
-                                                        <div id="slider" class="slider_bly"></div>
-                                                        <span class="contentSlider_position0">0</span>
-                                                        <span class="contentSlider_position6">6</span>
-                                                        <span class="contentSlider_position12">12</span>
-                                                        <span class="contentSlider_position18">18</span>
-                                                        <span class="contentSlider_position24">24</span>
+                                                        <div id="slider-range"></div>
+                                                        <div class="contentSlider_position">
+                                                            <span class="contentSlider_position0">0</span>
+                                                            <span class="contentSlider_position6">6</span>
+                                                            <span class="contentSlider_position12">12</span>
+                                                            <span class="contentSlider_position18">18</span>
+                                                            <span class="contentSlider_position24">24</span>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
@@ -759,14 +769,15 @@
                                                         <a href="#!"><img src="images/on_swich.png" alt="on_swich"></a>
                                                     </div>
                                                     <div class="enerj_slider_pointer">
-                                                        <!--<span class="contentSlider_position" id="contentSlider"></span>-->
-                                                        <div id="slider2" class="slider_bly"></div>
+                                                        <div id="slider-range2"></div>
+                                                        <div class="contentSlider_position">
+                                                            <span class="contentSlider_position0">0</span>
+                                                            <span class="contentSlider_position6">6</span>
+                                                            <span class="contentSlider_position12">12</span>
+                                                            <span class="contentSlider_position18">18</span>
+                                                            <span class="contentSlider_position24">24</span>
+                                                        </div>
 
-                                                        <span class="contentSlider_position0">0</span>
-                                                        <span class="contentSlider_position6">6</span>
-                                                        <span class="contentSlider_position12">12</span>
-                                                        <span class="contentSlider_position18">18</span>
-                                                        <span class="contentSlider_position24">24</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -787,24 +798,26 @@
                                                         <a href="#!"><img src="images/on_swich.png" alt="on_swich"></a>
                                                     </div>
                                                     <div class="enerj_slider_pointer">
-                                                        <!--<span class="contentSlider_position" id="contentSlider"></span>-->
-                                                        <div id="slider3" class="slider_bly"></div>
-                                                        <span class="contentSlider_position0">0</span>
-                                                        <span class="contentSlider_position6">6</span>
-                                                        <span class="contentSlider_position12">12</span>
-                                                        <span class="contentSlider_position18">18</span>
-                                                        <span class="contentSlider_position24">24</span>
+                                                        <div id="slider-range4"></div>
+                                                        <div class="contentSlider_position">
+                                                            <span class="contentSlider_position0">0</span>
+                                                            <span class="contentSlider_position6">6</span>
+                                                            <span class="contentSlider_position12">12</span>
+                                                            <span class="contentSlider_position18">18</span>
+                                                            <span class="contentSlider_position24">24</span>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
-                                                   <div class="termo_box">
-                                                       <div class="termo_img">
-                                                           <img src="images/termo.png" alt="termo_img">
-                                                       </div>
-                                                       <div class="termo_60 arrow_box"><p>60&deg;</p></div>
-                                                       <div class="termo_35 arrow_box2"><p>35&deg</p></div>
-                                                       <div class="termo_20 arrow_box"><p>20&deg</p></div>
-                                                   </div>
+                                                    <div class="termo_box">
+                                                        <div class="termo_img">
+                                                            <img src="images/termo.png" alt="termo_img">
+                                                        </div>
+                                                        <div class="termo_60 arrow_box"><p>60&deg;</p></div>
+                                                        <div class="termo_35 arrow_box2"><p>35&deg</p></div>
+                                                        <div class="termo_20 arrow_box"><p>20&deg</p></div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -822,13 +835,15 @@
                                                         <a href="#!"><img src="images/on_swich.png" alt="on_swich"></a>
                                                     </div>
                                                     <div class="enerj_slider_pointer">
-                                                        <!--<span class="contentSlider_position" id="contentSlider"></span>-->
-                                                        <div id="slider4" class="slider_bly"></div>
-                                                        <span class="contentSlider_position0">0</span>
-                                                        <span class="contentSlider_position6">6</span>
-                                                        <span class="contentSlider_position12">12</span>
-                                                        <span class="contentSlider_position18">18</span>
-                                                        <span class="contentSlider_position24">24</span>
+                                                        <div id="slider-range3"></div>
+                                                        <div class="contentSlider_position">
+                                                            <span class="contentSlider_position0">0</span>
+                                                            <span class="contentSlider_position6">6</span>
+                                                            <span class="contentSlider_position12">12</span>
+                                                            <span class="contentSlider_position18">18</span>
+                                                            <span class="contentSlider_position24">24</span>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
@@ -862,6 +877,7 @@
 
                             </div>
                             <div class="public_dawn">
+
                                 <div class="row public_row">
                                     <div class="col-md-3">
                                         <div class="bottom_line">
@@ -903,9 +919,19 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="energi_menu">
+                                    <div class="energi">
+                                        <a href="#!"><img src="images/card_pay.png" alt="sun_2"></a>
+                                        <p>OUR SOLAR SYSTEM</p>
+                                        <div class="energi_menu_in">
+                                            <a href="#!">Order now !</a>
+                                        </div>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
+
                         <div role="tabpanel" class="tab-pane fade" id="customer">
                             <div id="carouselExampleIndicators_1" class="carousel slide" data-ride="carousel"
                                  data-interval="false">
@@ -1227,6 +1253,7 @@
                                 </a>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
