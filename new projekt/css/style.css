@@ -118,20 +118,23 @@ table {
     padding-right: 15px;
 }
 
-.language li {
-    float: left;
-}
+/*.language li {*/
+    /*float: left;*/
+/*}*/
 
-ul .language li a {
-    padding-right: 10px;
-}
+/*ul .language li a {*/
+    /*padding-right: 10px;*/
+/*}*/
 
-.language li:first-child a:after {
+.language  a:after {
     content: '|';
     color: #000000;
-    padding-left: 10px;
+    padding-left: 7px;
 }
-
+.language   {
+    width: 30px;
+    padding-right: 36px;
+}
 .nav-tabs {
     border-bottom: 0px solid #dee2e6;
 }
